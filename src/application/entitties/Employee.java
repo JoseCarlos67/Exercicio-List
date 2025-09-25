@@ -27,8 +27,8 @@ public class Employee {
     return salary;
   }
 
-  public void salaryIncrease(double amount) {
-    salary += (salary / 10) * 100;
+  public void salaryIncrease(double percentage) {
+    salary += salary * percentage / 100;
   }
 
   @Override
